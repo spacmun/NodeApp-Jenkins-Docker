@@ -2,7 +2,7 @@
 FROM node:7-onbuild
 
 # set maintainer
-LABEL maintainer "myemail@gmail.com"
+LABEL maintainer "mac@unixtricks.com"
 
 # set a health check
 HEALTHCHECK --interval=5s \
