@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("nsadawi/nodeapp")
+        app = docker.build("spacmun/nodejs-test")
     }
 
     stage('Test image') {
